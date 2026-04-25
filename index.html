@@ -17,8 +17,9 @@ body {
 .hero {
   height: 90vh;
   background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.9)),
-  url('https://images.unsplash.com/photo-1529006557810-274b9b2fc783');
+  url('hero.png');
   background-size: cover;
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,6 +53,17 @@ body {
 .pay {
   background: #ff2d2d;
   color: white;
+}
+
+/* اللوجو */
+.logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.logo img {
+  width: 120px;
 }
 
 /* السكشن */
@@ -99,6 +111,11 @@ body {
 
 <body>
 
+<!-- اللوجو -->
+<div class="logo">
+  <img src="logo.png">
+</div>
+
 <!-- الهيدر -->
 <div class="hero">
   <div>
@@ -122,7 +139,7 @@ body {
   <div class="grid">
 
     <div class="card">
-      <img src="https://files.oaiusercontent.com/file-000000003e1471f4bab810e365b3b8b8">
+      <img src="shawarma.jpeg">
       <h3>وجبة شاورما</h3>
       <p>شاورما + بطاط + مشروب</p>
       <div class="price">1.750 KD</div>
@@ -132,7 +149,7 @@ body {
     </div>
 
     <div class="card">
-      <img src="https://files.oaiusercontent.com/file-00000000286c71f482b74b9c080434f4">
+      <img src="rice.jpeg">
       <h3>شاورما مع رز</h3>
       <p>رز + شاورما دجاج</p>
       <div class="price">2.000 KD</div>
